@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="#" />
+  <title>English for kids</title>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="menu">
+          <input type="checkbox" id="menu__toggle">
+          <label class="menu__btn" for="menu__toggle">
+            <span class="menu__span1"></span>
+            
+          </label>
+          <ul class="menu__list">
+            <li class="menu__item menu__item-active" id="0">Main</li>
+            <li class="menu__item" id="1">Action (set A)</li>
+            <li class="menu__item" id="2">Action (set B)</li>
+            <li class="menu__item" id="3">Actions (set C)</li>
+            <li class="menu__item" id="4">Adjective</li>
+            <li class="menu__item" id="5">Animal (set A)</li>
+            <li class="menu__item" id="6">Animal (set B)</li>
+            <li class="menu__item" id="7">Clothes</li>
+            <li class="menu__item" id="8">Emotions</li>
+            <li class="menu__item" id="9">Statistics</li>
+          </ul>
+      </div>
+      
+      <div class="switcher">
+        <div class="switcher__caption">Train</div>
+        <label class="switch">
+          <input type="checkbox" id="mode__toggle">
+        
+          <span class="slider"></span>         
+        </label>
+        <div class="switcher__caption switcher__disabled">Play</div>
+      </div>
+    </header>
+
+    <div class="score hidden">
+      
+    </div>
+
+    <div class="main"> 
+  
+    </div>
+    
+  </div>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <a href="https://github.com/DShevv">GitHub</a>
+      <div class="footer__logo" onclick="window.location.href='https://rs.school/js/'"></div>
+    </div>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+  <script src="./cards/cards.js" type="module"></script>
+</body>
+</html>
